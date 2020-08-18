@@ -1,4 +1,7 @@
+characters_array = ["Hoggle", "Ludo", "Sir Didymus"]
+
 def greet_characters(array)
+  
   # Use `each` to enumerate over the provided array
   #
   # Print a custom greeting for each element
