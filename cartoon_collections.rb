@@ -1,8 +1,8 @@
 characters_array = ["Hoggle", "Ludo", "Sir Didymus"]
 
-def greet_characters(characters_array)
-  characters_array.each do |character|
-    puts "Good evening, #{character}!"
+def greet_characters(array)
+  array.each do |character|
+    puts "Hello #{character}!"
   end
     
   # Use `each` to enumerate over the provided array
