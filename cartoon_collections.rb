@@ -1,7 +1,7 @@
 characters_array = ["Hoggle", "Ludo", "Sir Didymus"]
 
-def greet_characters(array)
-  array.each do |character|
+def greet_characters(dwarves)
+  dwarves.each do |character|
     puts "Hello #{character}!"
   end
     
